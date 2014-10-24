@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 void sumar(int a, int b);
+void restar(int a,int b);
 
 int main() {
 
@@ -14,7 +15,7 @@ int main() {
 	
     //implementar resta, multiplicacion, division
     sumar(a,b);
-   
+    restar(a,b);
    
     return (EXIT_SUCCESS);
 }
@@ -22,4 +23,6 @@ int main() {
 void sumar(int a, int b){
      printf ("La suma es: %d",a+b); 
 }
-
+void restar(int a,int b){
+	printf("La resta es: %d",a-b);
+}
